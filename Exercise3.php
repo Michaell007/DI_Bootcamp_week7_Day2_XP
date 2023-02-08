@@ -1,8 +1,10 @@
 <?php
 
-// Valid Integer.
+/**
+ * Function valid number
+ * @return void
+ */
 function myFunction($nb) {
-
     try {
         // verif is integer 
         if (is_int($nb)) {
